@@ -122,11 +122,17 @@ figcaption {
 	-webkit-filter: grayscale(100%);
 }
 
-#footer {
+#footer{
 	background: #C6d5c5;
 	padding: 1% 1% 5% 1%;
 	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+#footer img{
+    border: none;
+
 }
 
 #footer div {
@@ -153,11 +159,8 @@ p {
 
 #contenido {
 	animation-name: animacion-slidein;
-	animation-duration: 0.5s;
-	-webkit-animation-delay: 1s;
-	-moz-animation-delay: 1s;
-	-o-animation-delay: 1s;
-	animation-delay: 1s;
+	animation-duration: 1s;
+
 }
 
 @media (min-width: 900px) {
