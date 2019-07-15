@@ -177,12 +177,14 @@ p {
 	}
 	
 	#footer {
-		display: flex;
+        display: flex;
+        flex-flow: row wrap;
       
 	}
 }
 
 @media (max-width: 900px) {
+    
 	#titulo {
 		text-align: center;
 	}
